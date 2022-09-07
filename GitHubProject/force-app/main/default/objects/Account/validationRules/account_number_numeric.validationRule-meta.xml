@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>account_number_numeric</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( not(ISBLANK( AccountNumber)) , Not(ISNUMBER( AccountNumber) ), false)</errorConditionFormula>
+    <errorMessage>Account number should be numeric</errorMessage>
+</ValidationRule>
