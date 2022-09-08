@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>AccOppTest</members>
-		<members>AccountApex</members>
-		<name>ApexClass</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>ApexPage</name>
-	</types>
-	<types>
 		<members>AccOpp</members>
 		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>Calculator</members>
+		<members>PizzaComp</members>
+		<name>AuraDefinitionBundle</name>
 	</types>
 	<types>
 		<members>Address__c</members>
